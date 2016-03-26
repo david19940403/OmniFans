@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#030303">
+
+    <ImageView
+        android:layout_width="321dp"
+        android:layout_height="333dp"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/logo" />
+
+    <Button
+        android:layout_width="1197dp"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:id="@+id/button2"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/Loginbutton"
+        android:textSize="18dp" />
+</LinearLayout>

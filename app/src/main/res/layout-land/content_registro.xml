@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_registro" tools:context="com.example.ovnifans.omnifans.Registro">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2">
+        <ImageView
+            android:layout_width="321dp"
+            android:layout_height="333dp"
+            android:id="@+id/imageView2"
+            android:src="@mipmap/logo"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/Loginbutton"
+            android:layout_alignStart="@+id/Loginbutton" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:id="@+id/RegistroButton"
+                android:textSize="18dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignRight="@+id/Loginbutton"
+                android:layout_alignEnd="@+id/Loginbutton" />
+
+            <Button
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/Loginbutton"
+                android:textSize="18dp"
+                android:layout_alignBottom="@+id/imageView2"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030303"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="SEARCH..."
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09"
+        android:textColor="#79f86b"
+        android:textSize="28dp" />
+
+    <EditText
+        android:layout_width="357dp"
+        android:layout_height="44dp"
+        android:id="@+id/editText8"
+        android:textColor="#060606"
+        android:background="#ffffff"
+        android:text="SEARCH FOR YOUR FAVORITE TEAM" />
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030303"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SELECT YOUR FAVORITE TEAM ..."
+        android:id="@+id/textView8"
+        android:textColor="#f6fb75" />
+
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="NBA"
+        android:id="@+id/button7"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:background="#fcfafa"
+        android:textColor="#020202" />
+
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="NFL"
+        android:id="@+id/button8"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:background="#fcfafa" />
+
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="NHL"
+        android:id="@+id/button9"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:background="#fcfafa" />
+
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="MLB"
+        android:id="@+id/button10"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:background="#fcfafa" />
+
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="NCAA"
+        android:id="@+id/button11"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:background="#fcfafa"
+        android:textColorLink="#010101" />
+
+    <Button
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:text="MLS"
+        android:id="@+id/button12"
+        android:textAlignment="textStart"
+        android:textSize="20dp"
+        android:background="#fcfafa"
+        android:clickable="false"
+        android:enabled="false"
+        android:textColor="#060606"
+        android:typeface="normal" />
+
+    <RatingBar
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:background="#f1e167"
+        android:rating="0"
+        android:stepSize="5" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/calendarView"
+        android:background="#ffffff" />
+</LinearLayout>

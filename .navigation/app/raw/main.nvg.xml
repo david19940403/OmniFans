@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+    ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations
+      class = "java.util.ArrayList">
+    <statePointEntry>
+      <state
+          class = "com.android.tools.idea.editors.navigation.model.ActivityState"
+          className = "com.example.ovnifans.omnifans.login"/>
+      <point
+          x = "80"
+          y = "1444"/>
+    </statePointEntry>
+         <state
+          class = "com.android.tools.idea.editors.navigation.model.ActivityState"
+          className = "com.example.ovnifans.omnifans.login"/>
+      <point
+          x = "984"
+          y = "60"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state
+          class = "com.android.tools.idea.editors.navigation.model.ActivityState"
+          className = "com.example.ovnifans.omnifans.login"/>
+      <point
+          x = "1392"
+          y = "964"/>
+    </statePointEntry>
+         <state
+          class = "com.android.tools.idea.editors.navigation.model.ActivityState"
+          className = "com.example.ovnifans.omnifans.login"/>
+      <point
+          x = "84"
+          y = "60"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
